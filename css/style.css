@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+#mainDiv {
+    height:100%;
+    width:100%;
+    padding:5%;
+}
+#mainTable {
+    width:90%;
+    height:90%;
+}
+#drawArea {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.toolIcon {
+    max-width:100%;
+    height: auto;
+}
+
+.court {
+    position: absolute;
+    height: 90%;
+    width: auto;
+    background: #f0e68c;
+    z-index: 0;
+}
+
+.playerDiv {
+    position: absolute;
+    height: 5%;
+    z-index: 1;
+}
+
+.player {
+    height: 100%;
+    width: auto;
+    position: absolute;
+}
+
+.ballDiv {
+    position: absolute;
+    height: 3%;
+    z-index: 2;
+}
+
+.ball {
+    height: 100%;
+    width: auto;
+    position: absolute;
+}
